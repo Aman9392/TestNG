@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/amapawar/Desktop/TestNGTutorial/TestNG(failed)">
+    <classes>
+      <class name="testNG.Test2">
+        <methods>
+          <include name="SingUp"/>
+        </methods>
+      </class> <!-- testNG.Test2 -->
+    </classes>
+  </test> <!-- /Users/amapawar/Desktop/TestNGTutorial/TestNG(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
