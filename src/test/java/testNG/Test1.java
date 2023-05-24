@@ -1,8 +1,9 @@
 package testNG;
 
+import TestSuit.Suite;
 import org.testng.annotations.Test;
 
-public class Test1{
+public class Test1 extends Suite {
     @Test
     void First(){
         System.out.println("First");

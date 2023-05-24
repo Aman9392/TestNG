@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/amapawar/Desktop/TestNGTutorial/TestNG">
+    <test verbose="2" preserve-order="true"
+          name="/Users/amapawar/Desktop/TestNGTutorial/TestNG/src/test/java/annotations">
         <classes>
-           <class name="testNG.Test1"/>
-            <class name="testNG.Test2"/>
+            <class name="annotations.AfterClass">
+                <methods>
+                    <include name="TestMethodOne"/>
+                    <include name="TestMethodThree"/>
+                    <include name="TestMethodTwo"/>
+                </methods>
+            </class>
+            <class name="annotations.AfterMethod">
+                <methods>
+                    <include name="TestMethod"/>
+                    <include name="TestMethodTwo"/>
+                </methods>
+            </class>
+            <class name="annotations.BeforeClass">
+                <methods>
+                    <include name="TestMethod"/>
+                    <include name="TestTwo"/>
+                </methods>
+            </class>
+            <class name="annotations.BeforeMethod">
+                <methods>
+                    <include name="TestMethod"/>
+                    <include name="TestMethodTwo"/>
+                </methods>
+            </class>
+            <class name="annotations.TestMethod">
+                <methods>
+                    <include name="Started"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
