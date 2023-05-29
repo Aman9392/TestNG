@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ITest Suite Example">
+    <listeners>
+        <listener class-name="testNGIExecutoionListener.IExecutionListenerExample"/>
+    </listeners>
+    <test name="ITest test">
+        <classes>
+            <class name="testNGIExecutoionListener.IExexcutionListenerTestCaseExample"/>
+        </classes>
+    </test>
+</suite>
